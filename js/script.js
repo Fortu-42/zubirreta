@@ -4,5 +4,6 @@ $(document).ready(function(){
         nav:true,
         center:true,
         items: 1,
+        lazyLoad:false
     });
 });
