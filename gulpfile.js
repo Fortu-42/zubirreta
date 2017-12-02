@@ -74,19 +74,21 @@ gulp.task('copy', function() {
       '!**/bootstrap-theme.*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('vendor/bootstrap'))
+    .pipe(gulp.dest('vendor/bootstrap'));
 
   gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-    .pipe(gulp.dest('vendor/jquery'))
-
+    .pipe(gulp.dest('vendor/jquery'));
   gulp.src(['node_modules/magnific-popup/dist/*'])
-    .pipe(gulp.dest('vendor/magnific-popup'))
+    .pipe(gulp.dest('vendor/magnific-popup'));
 
   gulp.src(['node_modules/scrollreveal/dist/*.js'])
-    .pipe(gulp.dest('vendor/scrollreveal'))
+    .pipe(gulp.dest('vendor/scrollreveal'));
 
   gulp.src(['node_modules/jquery.easing/*.js'])
-    .pipe(gulp.dest('vendor/jquery-easing'))
+    .pipe(gulp.dest('vendor/jquery-easing'));
+
+    gulp.src(['node_modules/owl.carousel/*.js'])
+    .pipe(gulp.dest('vendor/owlCarousel'));
 
   gulp.src([
       'node_modules/font-awesome/**',

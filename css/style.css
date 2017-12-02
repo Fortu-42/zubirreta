@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
 #header {
-  padding-top: 10vh; }
+  padding-top: 15vh; }
 
 .hoiler {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/hotOiler.jpg") no-repeat center;
@@ -12,5 +12,6 @@
   height: 60vh;
   border-radius: 5px; }
 
-.caption {
-  vertical-align: middle; }
+@media (min-width: 1200px) {
+  .caption {
+    top: 10vh; } }

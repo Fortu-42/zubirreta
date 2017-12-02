@@ -1,5 +1,6 @@
+
 #header{
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
 
 .hoiler{
@@ -9,6 +10,19 @@
     border-radius: 5px;
 }
 
-.caption{
-    vertical-align: middle;
-}
+
+
+@media (min-width: 768px) {
+ 
+  }
+  @media (min-width: 992px) {
+
+  }
+  @media (min-width: 1200px) {
+
+
+    .caption{
+        top: 10vh;
+    }
+
+  }
