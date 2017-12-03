@@ -1,7 +1,13 @@
+body{
+    background-color: #333;
+    color: white;
 
-#header{
-    padding-top: 15vh;
 }
+#header{
+    padding-top: 20vh;
+}
+
+
 
 .hoiler{
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/hotOiler.jpg") no-repeat center; 
@@ -10,7 +16,16 @@
     border-radius: 5px;
 }
 
+img.logo{
+ height: 10vh;
+ width: 150px;
+ padding-top:10px;
+}
 
+.nav-link:hover{
+    background-color: #333;
+    color: white;
+}
 
 @media (min-width: 768px) {
  
@@ -19,7 +34,15 @@
 
   }
   @media (min-width: 1200px) {
-
+    nav.navbar{
+        li{
+            a{
+                padding: 30px 15px;
+            }
+        }
+        padding: 0;
+        margin: 0;
+    }
 
     .caption{
         top: 10vh;

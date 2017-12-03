@@ -2,4 +2,4 @@
  * Start Bootstrap - Small Business v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/small-business)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
- */#header{padding-top:15vh}.hoiler{background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2),transparent),url(../img/hotOiler.jpg) no-repeat center;background-size:cover;height:60vh;border-radius:5px}@media (min-width:1200px){.caption{top:10vh}}
+ */body{background-color:#333;color:#fff}#header{padding-top:20vh}.hoiler{background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2),transparent),url(../img/hotOiler.jpg) no-repeat center;background-size:cover;height:60vh;border-radius:5px}img.logo{height:10vh;width:150px;padding-top:10px}.nav-link:hover{background-color:#333;color:#fff}@media (min-width:1200px){nav.navbar{padding:0;margin:0}nav.navbar li a{padding:30px 15px}.caption{top:10vh}}
