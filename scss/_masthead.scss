@@ -4,48 +4,152 @@ body{
 
 }
 #header{
-    padding-top: 20vh;
+    padding-top: 18vh;
+}
+
+
+img.logo{
+    height: 10vh;
+    width: 150px;
+    padding-top:10px;
+   }
+
+   nav.navbar{
+    li{
+        a{
+            padding: 30px 15px;
+        
+        }
+        &:hover{
+            color:white;
+        }
+    }
+    padding: 0;
+    margin: 0;
+}
+
+   .nav-link:hover{
+    background-color: #333;
+    color: white;
+}
+.navbar-nav > li.nav-item > a.nav-link,
+.navbar-nav > li.nav-item > a.nav-link{
+    font-weight: bolder;
+&:focus {
+  color: #333;
+}
+  &:hover {
+    color: rgb(255,255,255);
+  }
 }
 
 
 
+
 .hoiler{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/hotOiler.jpg") no-repeat center; 
+    background:url("../img/hotOiler.jpg") no-repeat center; 
     background-size: cover;
     height: 60vh;
     border-radius: 5px;
 }
 
-img.logo{
- height: 10vh;
- width: 150px;
- padding-top:10px;
+.capt1{
+    background:url("../img/oilRig2.jpg") no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 5px;     
 }
 
-.nav-link:hover{
-    background-color: #333;
-    color: white;
+.capt2{
+    background: url("../img/oilRig3.jpg") no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    border-radius: 5px;
 }
 
-@media (min-width: 768px) {
- 
-  }
-  @media (min-width: 992px) {
+p.headerCap{
+    font-size: 20px;
+}
 
-  }
-  @media (min-width: 1200px) {
-    nav.navbar{
-        li{
-            a{
-                padding: 30px 15px;
-            }
-        }
-        padding: 0;
-        margin: 0;
+h1.headerh{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#contact-card{
+    background-color: #34374c;
+    font-weight: bold;
+    color: #f6f6f6;
+    text-decoration: none;
+    &:hover,&:active{
+        background-color: #f6f6f6;
+        color:#34374c;
+       
     }
+    p{
+        font-size: 1em;
+    
+        .fa-2x {
+            vertical-align: middle;
+        }
+
+        span.contact{
+            margin-right: 20px;
+          
+        }
+        
+        
+    }
+}
+
+a.Bbutton{
+    text-decoration: none;
+    &:hover, &:active{
+        text-decoration: none;
+    }
+}
+
+@media (max-width:758px){
+    .caption{
+        top: 2vh;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .item{
+        .row{
+            display: flex;
+            .caption{
+                .s{
+                    top:4vh;
+                }
+                flex:1;
+                order: 2;
+            }
+            .picture{
+                order:1;
+            }
+    }
+  }
+
 
     .caption{
-        top: 10vh;
+        top: 5vh;
     }
+    .caption.s{
+        top: 0;
+    }
+}
 
+ 
+  @media (min-width: 991px) {
+
+    .caption{
+        top: 7vh;
+    }
+    .caption.s{
+        top: 7vh;
+    }
   }

@@ -8,28 +8,116 @@ body {
   color: white; }
 
 #header {
-  padding-top: 20vh; }
-
-.hoiler {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/hotOiler.jpg") no-repeat center;
-  background-size: cover;
-  height: 60vh;
-  border-radius: 5px; }
+  padding-top: 18vh; }
 
 img.logo {
   height: 10vh;
   width: 150px;
   padding-top: 10px; }
 
+nav.navbar {
+  padding: 0;
+  margin: 0; }
+  nav.navbar li a {
+    padding: 30px 15px; }
+  nav.navbar li:hover {
+    color: white; }
+
 .nav-link:hover {
   background-color: #333;
   color: white; }
 
-@media (min-width: 1200px) {
-  nav.navbar {
-    padding: 0;
-    margin: 0; }
-    nav.navbar li a {
-      padding: 30px 15px; }
+.navbar-nav > li.nav-item > a.nav-link,
+.navbar-nav > li.nav-item > a.nav-link {
+  font-weight: bolder; }
+  .navbar-nav > li.nav-item > a.nav-link:focus,
+  .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #333; }
+  .navbar-nav > li.nav-item > a.nav-link:hover,
+  .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: white; }
+
+.hoiler {
+  background: url("../img/hotOiler.jpg") no-repeat center;
+  background-size: cover;
+  height: 60vh;
+  border-radius: 5px; }
+
+.capt1 {
+  background: url("../img/oilRig2.jpg") no-repeat center;
+  background-size: cover;
+  height: 60vh;
+  border-radius: 5px; }
+
+.capt2 {
+  background: url("../img/oilRig3.jpg") no-repeat center;
+  background-size: cover;
+  height: 60vh;
+  border-radius: 5px; }
+
+p.headerCap {
+  font-size: 20px; }
+
+h1.headerh {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+#contact-card {
+  background-color: #34374c;
+  font-weight: bold;
+  color: #f6f6f6;
+  text-decoration: none; }
+  #contact-card:hover, #contact-card:active {
+    background-color: #f6f6f6;
+    color: #34374c; }
+  #contact-card p {
+    font-size: 1em; }
+    #contact-card p .fa-2x {
+      vertical-align: middle; }
+    #contact-card p span.contact {
+      margin-right: 20px; }
+
+a.Bbutton {
+  text-decoration: none; }
+  a.Bbutton:hover, a.Bbutton:active {
+    text-decoration: none; }
+
+@media (max-width: 758px) {
   .caption {
-    top: 10vh; } }
+    top: 2vh; } }
+
+@media (max-width: 991px) {
+  .item .row {
+    display: flex; }
+    .item .row .caption {
+      flex: 1;
+      order: 2; }
+      .item .row .caption .s {
+        top: 4vh; }
+    .item .row .picture {
+      order: 1; }
+  .caption {
+    top: 5vh; }
+  .caption.s {
+    top: 0; } }
+
+@media (min-width: 991px) {
+  .caption {
+    top: 7vh; }
+  .caption.s {
+    top: 7vh; } }
+
+section#about {
+  padding: 0vh 0vw 10vh; }
+  section#about h1.section-heading {
+    font-size: 50px;
+    font-weight: bold; }
+  section#about p.mb-4 {
+    font-size: 1.5em; }
+
+.card-body .card-title, .card-body .card-text {
+  color: #34374c; }
+
+div.modal.fade#exampleModal {
+  color: #34374c; }
