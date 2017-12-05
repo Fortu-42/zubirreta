@@ -39,13 +39,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="#about">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
+              <a class="nav-link" href="#services">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Contacto</a>
             </li>
           </ul>
         </div>
@@ -100,7 +100,7 @@
             <div class="col-lg-4 text-center caption">
               <h1 class="headerh">Unidad de Hot Oiler lista para el servicio</h1>
               <p class="headerCap">Tenemos, a su disposición equipos modernos, especializados y acoplados a los estándares de la industria. Lo que su empresa necesite para su pozo o taladro</p>
-              <a class="btn btn-primary btn-lg" href="#">Ver Hot Oiler</a>
+              <a class="btn btn-primary btn-lg" href="#" data-toggle="modal" data-target="#hotOilerModal" >Ver Hot Oiler</a>
             </div>
 
             <div class="col-lg-8 picture">
@@ -143,7 +143,7 @@
         </div>
   </section>
 
-      <!-- Content Row -->
+      <section id="services">
       <div class="row">
 
         <div class="col-md-4 mb-4">
@@ -154,8 +154,8 @@
               <hr>
               <p class="card-text">Contáctanos con cualquier información que requieras con respecto a equipos, repuestos, tubos, maquinarias, motores y todo lo referente al sector petrolero</p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contácto</a>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Solicita Asistencia</a>
             </div>
           </div>
         </div>
@@ -168,8 +168,8 @@
               <hr>
               <p class="card-text">Nos adaptamos a las necesidades de nuestros clientes, por lo que trabajamos con cotizaciones hechas a la medida de sus requerimientos</p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contacto</a>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contáctanos</a>
             </div>
           </div>
         </div>
@@ -182,8 +182,8 @@
               <hr>
               <p class="card-text">Tenemos el equipo especializado que requieres para llevar acabo cualquier operación petrolera, contactanos hoy mismo para asistirlo en lo que necesite</p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contácto</a>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#hotOilerModal">Ver Hot Oiler</a>
             </div>
           </div>
         </div>
@@ -191,12 +191,12 @@
 
       </div>
       <!-- /.row -->
-
+    </section>  <!-- Content Row -->
     </div>
     <!-- /.container -->
 
 
-    <!-- Modal -->
+    <!-- Modal contacto -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
@@ -239,6 +239,70 @@
       </div>
     </div>
   </div>
+
+
+
+<!-- Modal Hot Oiler -->
+  <div class="modal fade" id="hotOilerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hotOilerModalLabel">Hot Oiler</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row owl-carousel">
+                
+                  <div class="item col-md-12">
+                      <div class="capto1"></div>
+                  </div>
+                  
+                  <div class="item col-md-12">
+                      <div class="capto2"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto3"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto4"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto5"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto6"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto7"></div>
+                  </div>  
+
+                  <div class="item col-md-12">
+                      <div class="capto8"></div>
+                  </div>  
+
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
