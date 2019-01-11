@@ -150,6 +150,15 @@ module.exports = function(grunt) {
 				dist: [ 'test/index.html' ]
 			},
 
+			blanket_qunit: {
+				dist: {
+					options: {
+						urls: [ 'test/index.html?coverage&gruntReport' ],
+						threshold: 0
+					}
+				}
+			},
+
 			jscs: {
 				options: {
 					config: 'src/js/.jscsrc',
@@ -307,7 +316,7 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('docs', [ 'dist', 'clean:docs', 'assemble', 'sass:docs', 'copy:docsAssets', 'copy:distToDocs', 'zip' ]);
 
-	grunt.registerTask('test', [ 'jshint:dist', 'qunit:dist' ]);
+	grunt.registerTask('test', [ 'jshint:dist', 'qunit:dist', 'blanket_qunit:dist' ]);
 
 	grunt.registerTask('default', [ 'dist', 'docs', 'test' ]);
 
